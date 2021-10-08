@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Open+Sans&family=Roboto&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    border-color: #e5e5e5;
+}
+section {
+    background-color: #fff;
+    margin: 0 0 5px;
+    padding: 50px 0;
+}
+header {
+    width: 100%;
+    padding: 50px 0 0;
+}
+.logo {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.logo img {
+    width: 170px;
+}
+.logo h1 {
+    font-size: 40px;
+    color: #0088a2;
+    font-family: "Josefin Sans";
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #808080;
+    list-style: none;
+}
+.nav li {
+    width: 20%;
+}
+.nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0;
+    font-size: 25px;
+    font-family: "Open Sans";
+    color: #fff;
+}
+.nav a:hover {
+    background-color: #0088a2;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    position: relative;
+    flex: 0 1 30%;
+}
+.card img {
+    width: 100%;
+}
+.card p {
+    position: absolute;
+    width: 60%;
+    top: 40%;
+    left: 20%;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.app  {
+    width: 100%;
+    padding: 50px 0;
+
+}
+h2 {
+    text-align: center;
+    color: #0088a2;
+    font-size: 60px;
+    font-family: "Open Sans";
+    margin-bottom: 25px;
+}
+.baner {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+.video {
+    width: 100%;
+}
+.play {
+    width: 120px;
+    position: absolute;
+    top: 43%;
+    left: 46%;
+}
+.fivecards {
+    position: relative;
+    width: 80%;
+    margin: 50px 0 0 100px;
+    height: 600px;
+}
+.fivecards img{
+    position: absolute;
+    width: 26%;
+    height: 500px;
+}
+.fivecards img:nth-child(2) {
+    left: 20%;
+}
+.fivecards img:nth-child(3) {
+    left: 40%;
+}
+.fivecards img:nth-child(4) {
+    left: 60%;
+}
+.fivecards img:nth-child(5) {
+    left: 80%;
+}
+.fivecards img:nth-child(even) {
+    top: 8%; 
+}
+.project p {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    font-family: 'Open Sans';
+}
+.download {
+    padding: 50px 0;
+
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 50px 0;
+}
+.qr {
+    width: 250px;
+    height: 250px;
+}
+.android {
+    width: 300px;
+    height: 250px;
+}
+.download p {
+    width: 90%;
+    text-align: center;
+    font-family: "Open Sans";
+    margin: 0px auto 30px;
+    font-size: 25px;
+}
+footer {
+    background-color: #0088a2;
+    padding: 5% 0;
+
+}
+footer h3 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Josefin Sans';
+    color: #fff;
+    margin-bottom: 50px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto 50px;
+}
+.social img {
+    width: 100px;
+    height: 100px;
+}
+.descr {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Open Sans';
+
+}
+.descr-item {
+    flex: 0 1 30%;
+}
+.descr-item h4 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
